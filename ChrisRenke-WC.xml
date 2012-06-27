@@ -1,0 +1,105 @@
+<worldCrises>
+    <crises>
+        <crisis id="anytown_tornado">
+            <name>Anytown Tornado</name>
+            <kind>Natural disaster</kind>
+            <description>The tornado was big and killed lots of people.</description>
+            <date>2012-04-01</date>
+            <location>Anytown, USA</location>
+            <humanImpact kind="Killed">40</humanImpact>
+            <humanImpact kind="Displaced">400</humanImpact>
+            <humanImpact kind="Orphaned">12</humanImpact>
+            <economicImpact kind="Property damage">120000000</economicImpact>
+            <economicImpact kind="Other">12312312</economicImpact>
+            <resourceNeeded>Restoration of communication</resourceNeeded>
+            <resourceNeeded>Medical supplies</resourceNeeded>
+            <wayToHelp link="http://anytown.gov/donations">Donate</wayToHelp>
+            <wayToHelp>Send medical supplies</wayToHelp>
+            <image kind="header">
+                <link>http://mysite.com/bad_tornado.jpg</link>
+                <title>Anytown Tornado</title>
+            </image>
+            <image>
+                <link>http://mysite.com/suffering_children.jpg</link>
+                <title>Displaced Anytown children</title>
+                <description>These young children wait in line for a bowl of gruel from relief workers.</description>
+            </image>
+            <video kind="youtube">
+                <link>http://youtube.com/watch?D78wWf</link>
+                <title>Aerial survey of the damage</title>
+            </video>
+            <social kind="facebook">
+                <link>facebook.com/AnytownRelief</link>
+                <title>Anytown Relief Facebook Page</title>
+            </social>
+            <extLink>
+                <link>http://anytown.gov</link>
+                <title>Anytown City Hall</title>
+                <description>Contains information on the current status of the city.</description>
+            </extLink>
+            <extLink>
+                <link>http://fema.gov/tornadoes</link>
+                <title>How to Stay Safe in a Tornado</title>
+            </extLink>
+            <organizationRef>fema</organizationRef>
+            <personRef note="Bill Jones is the mayor of Anytown">bill_jones</personRef>
+        </crisis>
+    </crises>
+
+    <organizations>
+        <organization id="fema">
+            <name>Federal Emergency Management Agency (FEMA)</name>
+            <kind>Government agency</kind>
+            <description>FEMA coordinates relief efforts for natural disasters.</description>
+            <dateFounded>1980</dateFounded>
+            <location note="Headquarters">Washington D.C.</location>
+            <image>
+                <link>http://fema.gov/logo.jpg</link>
+                <title>FEMA logo</title>
+            </image>
+            <video kind="youtube">
+                <link>http://youtube.com/watch?D78wWf</link>
+                <title>Infomration on the agency</title>
+            </video>
+            <social kind="twitter">
+                <link>twitter.com/fema</link>
+                <title>FEMA twitter</title>
+            </social>
+            <extLink>
+                <link>http://fema.gov</link>
+                <title>Official website</title>
+            </extLink>
+            <crisisRef>anytown_tornado</crisisRef>
+            <personRef note="Bill Jones, Anytown mayor, works with FEMA">bill_jones</personRef>
+
+        </organization>
+    </organizations>
+
+    <people>
+        <person id="bill_jones">
+            <name>Bill Jones</name>
+            <kind>Mayor</kind>
+            <description>Bill was elected mayor in 2005.</description>
+            <image>
+                <link>http://mysite.com/suffering_children.jpg</link>
+                <title>Displaced Anytown children</title>
+                <description>These young children wait in line for a bowl of gruel from relief workers.</description>
+            </image>
+            <video kind="youtube">
+                <link>http://youtube.com/watch?D78wWf</link>
+                <title>Aerial survey of the damage</title>
+            </video>
+            <social kind="facebook">
+                <link>facebook.com/AnytownRelief</link>
+                <title>Anytown Relief Facebook Page</title>
+            </social>
+            <extLink>
+                <link>http://anytown.gov</link>
+                <title>Anytown City Hall</title>
+                <description>Contains information on the current status of the city.</description>
+            </extLink>
+            <organizationRef>fema</organizationRef>
+            <crisisRef>anytown_tornado</crisisRef>
+        </person>
+    </people>
+</worldCrises> 
