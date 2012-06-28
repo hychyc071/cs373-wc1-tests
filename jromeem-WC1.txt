@@ -1,0 +1,153 @@
+==============
+==  CRISES  ==
+==============
+ ---------- ----------
+Name:  Earthquake in Haiti
+Kind:  Natural Disaster
+Location:  Leogane, Haiti
+Date and Time:  6:53 local time (21:53 UTC) 12 January 2010
+Human Impact:  316,000 people had died, 300,000 had been injured and 1,000,000 made homeless
+Economic Impact:  2,300,000,000 USD
+Resources Needed:  Food, Volunteers, Donations
+Ways to Help:  Donations
+Embedded Images:  http://img.timeinc.net/time/photoessays/2010/haiti_time_z/haiti_time_z_01.jpg
+Embedded Videos:  http://www.youtube.com/embed/3l9B1dvfT-o
+External Links:  http://en.wikipedia.org/wiki/2010_Haiti_earthquake, http://www.dec.org.uk/haiti-earthquake-facts-and-figures
+ ---------- ----------
+Name:  Iraqi Refugee Crisis
+Kind:  Refugee Crisis, societal crisis
+Location:  Iraq, other parts of the world
+Date and time:  1950-ongoing
+Human Impact:  displacement of Iraqi civilians
+Economic Impact:  deteriorating economy, high inflation, high unemployment
+Resources Needed:  estimated $60 million to assist displaced Iraqis
+Ways to Help:  charities, volunteer, donations
+Embedded Images:  http://www.asianews.it/files/img/IRAQ_iraq_refugees_IN_SYRIA.jpg
+Embedded Videos:  http://www.youtube.com/embed/YaGR9W9zMrk
+Social Networks:  http://www.facebook.com/IraqiRefugeeAssistanceProject
+External Links: http://refugeerights.org/
+Organizations:  Red Crescent
+People:  Mustafa Barzani
+ ---------- ----------
+Name:  Chernobyl disaster
+Kind:  Nuclear accident
+Location:  Chernobyl, Ukraine
+Date and Time:  01:23 (Moscow Time UTC+3) 26 April 1986
+Human Impact:  Thyroid cancer among children (more than 4000 cases reported). Psychological problems among the affected population -- survivors feel "fatally flawed" and use illicit drugs and have unprotected sex. 28 emergency workers died from acute radiation syndrome. 15 patients died from thyroid cancer in the years following the disaster. Up to the year 2005 more than 6000 cases of thyroid cancer were reported in children and adolescents exposed at the time of the accident, a number that is expected to increase. Down syndrome peaked http://en.wikipedia.org/wiki/Chernobyl_disaster#Human_impact
+Economic Impact: In Belarus the total cost over 30 years is estimated at US$235 billion (in 2005 dollars). In the 2003-2005 report, The Chernobyl Forum stated taht between 5% an d7% of government spending in Ukraine is sitll related to Chernobl, while in Belarus over $13 billion is thought to have been spent between 1991 and 2003, with 22% of national budget having been Chernobyl-related in 1991, falling to 6% in 2002.
+Resources needed:  Money
+Ways to Help:  Donate to or volunteer with: Chernobyl Children's Project International, Friends of Chernobyl's Children
+Embedded Images:  http://upload.wikimedia.org/wikipedia/en/1/1b/Chernobyl_Disaster.jpg, http://upload.wikimedia.org/wikipedia/commons/0/02/Kiev-UkrainianNationalChernobylMuseum_15.jpg
+Embedded Videos:  http://www.youtube.com/embed/vO0NjcLUXTQ
+Social Networks:  http://twitter.com/#!/Chernobyl
+External Links:  http://www.chernobyl-international.com/index.aspx
+Organizations:  Chernobyl Children's Project International, Friends of Chernobyl's Children, The Chernobyl Forum
+People:  Adi Roche, Mikhail Gorbachev
+Causes:  Operator error initially faulted, Operating instructions and design deficiencies found
+ ---------- ----------
+Name:  West Africa Food Crisis
+Kind:  Food Shortage/Drought
+Location:  West Africa
+Date and Time:  Spring 2012 - 
+Human Impact:  Regional food and water shortage affecting over 18 million people.
+Resources needed:  Money
+Ways to help:  Donate to or volunteer with: Oxfam America
+Embedded Images:  http://www.oxfamamerica.org/oxfam-images/women-in-garden-burkina-faso-11-june-2012/image_large, http://www.fao.org/typo3temp/pics/d0e1d9a1a6.jpg, https://s3.amazonaws.com/static.oxfamamerica.org/images/emergencies/west-africa-food-crisis/Oxfam-SahelCrisis-Infographic-050812.jpg
+Embedded Videos:  http://www.youtube.com/embed/fbCUUv-h7oI
+Social networks:  http://twitter.com/#!/Chernobyl
+External links:  http://www.oxfamamerica.org/emergencies/west-africa-food-crisis/
+Organizations:  Oxfam
+People:  Raymond C. Offenheiser
+Causes:  Regional Drought, Poverty, Climate Change
+
+==============
+==   ORGS   ==
+==============
+ ---------- ----------
+Name:  Red Crescent
+Kind:  non-governmental, humanitarian
+Location:  Geneva, Switzerland
+History:  http://en.wikipedia.org/wiki/Red_Crescent#History_of_Movement
+Contact Info:  http://www.redcrescent.org/contact-us
+Embedded Images:  http://upload.wikimedia.org/wikipedia/commons/b/b6/Croixrouge_logos.jpg
+Embedded Videos:  http://www.youtube.com/embed/PEB2z8qACMU
+Social Networks:  http://www.facebook.com/RedCrossRedCrescent
+External Links:  http://www.redcrescent.org/
+Crises:  Iraqi Refugee Crisis
+People:  Mustafa Barzani
+ ---------- ----------
+Name:  OxFam
+Kind:  International Aid Organization
+Location:  Active worldwide
+History:  Founded Oxford, 1942 with mission of providing food aid to occupied Greece
+Contact Info:  http://www.oxfam.org/
+Embedded Images:  http://www.oxfam.org/sites/www.oxfam.org/themes/oxizen/logo.png
+Embedded Videos:  http://www.youtube.com/embed/8nGQSV_D_Bk
+Social Networks:  http://twitter.com/#!/oxfam, http://www.facebook.com/pages/Oxfam/106024056095120
+External Links:  http://www.oxfam.org/en, http://en.wikipedia.org/wiki/Oxfam, http://www.oxfamamerica.org/
+Crises:  West Africa Drought/ Food Crisis, East Africa Food Crisis, Sudan Crisis, Yemen Crisis
+People:  Raymond C. Offenheiser - President: Oxfam America, Karen Brown - Chair: Oxfam GB
+ ---------- ----------
+Name:  World Food Programme
+Kind:  Humanitarian Agency
+Location:  Based in Rome, Italy
+History:  The WFP was first established in 1961[4] after the 1960 Food and Agricultural Organization (FAO) Conference, when George McGovern, director of the US Food for Peace Programmes, proposed establishing a multilateral food aid programme. WFP was formally established in 1963 by the FAO and the United Nations General Assembly on a three-year experimental basis. In 1965, the programme was extended to a continuing basis.
+Contact Info:  http://www.wfp.org/contact
+Crises:  World Hunger, Sahel, South Sudan, Earthquake in Haiti
+People:  Ertharin Cousin (head),  George McGovern (started), Josette Sheeran(2008-2012)
+External Links:  http://www.wfp.org/, http://en.wikipedia.org/wiki/World_Food_Programme
+Embedded Images:  http://upload.wikimedia.org/wikipedia/commons/9/9e/Official_WFP_logo.gif
+Embedded Videos:  http://www.youtube.com/embed/u-orDpbq3N4
+ ---------- ----------
+Name:  Chernobyl Children's Project International
+Kind:  UN-accredited non-profit international development, medical, and humanitarian organization
+Location:  Cork, Ireland - New York, New York
+History:  Founded in Ireland in 1991 by Adi Roche in response to an appeal from Ukrainian and Belarusian doctors for aid.
+Contact Info:  Charity No. CHY 11 477 | Tel: +353 21 431 2999 | Irish Office - Ballycurreen Industrial Estate, Kinsale Road, Cork, Ireland | US Office - Northport Financial Center, 490 Main Street, Northport NY 11768, USA
+Embedded Images:  http://www.chernobyl-international.com/App_Themes/CCI/images/header/img_logo.gif
+Embedded Videos:  later
+Social Networks:  http://www.facebook.com/ChernobylChildrenInternational, http://twitter.com/#!/Chernobyl/
+External links:  http://www.chernobyl-international.com/index.aspx
+Crises:  Chernobyl disaster
+People:  Adi Roche
+
+==============
+==  PEOPLE  ==
+==============
+ ---------- ----------
+Name:  Mustafa Barzani
+Kind:  Kurdish nationalist leader, and the most prominent political figure in the modern Kurdish politics
+Location:  Barzan, Ottoman Empire
+Embedded Images:  http://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mustafa_barzani.jpg/280px-Mustafa_barzani.jpg
+Embedded Videos:  http://www.youtube.com/embed/t1jLwD-xnPY
+External Links:  http://www.meforum.org/220/the-last-years-of-mustafa-barzani
+Crises:  Iraqi Refugee Crisis
+Organizations:  Red Crescent
+ ---------- ----------
+Name:  Josette Sheeran
+Kind:  Vice Chairman of the World Economic Forum
+Location: United States
+External Links:  http://en.wikipedia.org/wiki/Josette_Sheeran
+Embedded Images:  http://upload.wikimedia.org/wikipedia/commons/c/ca/Josette_Sheeran_Shiner_Dept_State.jpg 
+Embedded Videos:  http://www.youtube.com/embed/CdxVbUja_pY 
+Crises:  Earthquake in Haiti, World Food Crisis, Gaza conflict
+Organizations:  World Economic Forum, World Food Programme
+ ---------- ----------
+Name:  Adi Roche
+Kind:  Humanitarian
+Location:  Cork, Ireland
+Embedded Images:  http://www.businessandfinance.ie/files/2010/images/20100304113435_Adi-Roche.jpg
+Embedded Videos:  http://www.youtube.com/embed/BFkCCKWCRyk
+Social Networks:  http://www.facebook.com/pages/Adi-Roche/103118666395441
+External Links:  http://en.wikipedia.org/wiki/Adi_Roche
+Crises:  Chernobyl disaster
+Organizations:  CCPI
+ ---------- ----------
+Name:  Raymond C. Offenheiser
+Kind:  Humanitarian
+Location:  Notre Dame, Indiana, USA
+Embedded Images:  http://kellogg.nd.edu/about/images/offenheiser.jpg
+Embedded Videos:  http://www.youtube.com/embed/U_qufZf9iKo
+External links:  http://www.oxfamamerica.org/whoweare/oxfam-experts/raymond-offenheiser
+Crises:  West Africa Food Crisis
+Organizations:  Oxfam
