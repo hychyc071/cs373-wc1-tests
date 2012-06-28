@@ -119,6 +119,8 @@
 		<xs:element name="kind" type="xs:normalizedString" />
 		
 		<xs:element name="description" type="xs:string" />
+
+		<xs:element name="contactInfo" type="xs:string" />
 		
 		<xs:element name="dateFounded" type="xs:normalizedString" />
 		
@@ -165,6 +167,8 @@
 		
 		<xs:element name="description" type="xs:normalizedString" />
 		
+		<xs:element name="location" type="xs:normalizedString" />
+
 		<xs:group ref="externals" />
 		
 		<xs:element name="organizationRef" minOccurs="1" maxOccurs="unbounded">
@@ -201,8 +205,7 @@
 <xs:complexType name="imageType">
 	<xs:sequence>
 		<xs:element name="link" type="xs:token" />
-		<xs:element name="title" type="xs:normalizedString" />
-		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="caption" type="xs:normalizedString" />
 	</xs:sequence>
 	<xs:attribute name="kind" type="xs:normalizedString" />
 	
@@ -216,8 +219,17 @@
 		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
 	</xs:sequence>
 	
-	<xs:attribute name="kind" type="xs:normalizedString" />
+	<xs:attribute name="kind" type="videoKinds" />
 </xs:complexType>
+
+<xs:simpleType name="videoKinds">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="youtube"    />
+		<xs:enumeration value="vimeo"      />
+		<xs:enumeration value="metacafe"   />
+		<xs:enumeration value="dailymotion"/> 
+	</xs:restriction>
+</xs:simpleType>
 
 <xs:complexType name="socialType">
 	
@@ -227,9 +239,19 @@
 		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
 	</xs:sequence>
 	
-	<xs:attribute name="kind" type="xs:normalizedString" />
+	<xs:attribute name="kind" type="socialKinds" />
 	
 </xs:complexType>
+
+<xs:simpleType name="socialKinds">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="facebook"  />
+        <xs:enumeration value="twitter"   />
+        <xs:enumeration value="linkedin"  />
+	<xs:enumeration value="googleplus"/>
+	<xs:enumeration value="myspace"   />
+    </xs:restriction>
+</xs:simpleType>
 
 <xs:complexType name="extLinkType">
 	<xs:sequence>
