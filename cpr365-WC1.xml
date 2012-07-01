@@ -136,7 +136,7 @@ Several agencies including the United States Coast Guard (USCG), National Hurric
         </crisis>
         
   
-        <crisis id="war_in_darfur">
+        <crisis id="darfur_conflict">
             <name>War in Darfur</name>
             <kind>Rebellion</kind>
             <description>The Darfur Conflict was a guerrilla conflict or civil war centered on the Darfur region of Sudan. It began in February 2003 when the Sudan Liberation Movement/Army (SLM/A) and Justice and Equality Movement (JEM) groups in Darfur took up arms, accusing the Sudanese government of oppressing non-Arab Sudanese in favor of Sudanese Arabs. It is also known as the Darfur Genocide.
@@ -199,7 +199,7 @@ The Sudanese government and the JEM signed a ceasefire agreement in February, 20
 				<title>Facebook concerning saving Darfur</title>
 			</social>
             <extLink>
-                <link>http://en.wikipedia.org/wiki/War_in_Darfur  </link>
+                <link>http://en.wikipedia.org/wiki/darfur_conflict  </link>
                 <title>Wikipedia Acticle</title>
             </extLink>
             <organizationRef>american_red_cross</organizationRef>
@@ -403,7 +403,7 @@ Issued a corporate charter by the United States Congress under Title 36 of the U
                 <link>http://www.redcross.org/ </link>
                 <title>The American Red Cross</title>
             </extLink>
-            <crisisRef>war_in_darfur</crisisRef>
+            <crisisRef>darfur_conflict</crisisRef>
             <personRef>bill_gates</personRef>
 
         </organization>
@@ -595,7 +595,7 @@ After leaving office, Bush returned to Texas and purchased a home in a suburban 
             </social>
             <extLink>
                 <link>http://en.wikipedia.org/wiki/George_W._Bush </link>
-                <title>Wikipedia Article</title></title>
+                <title>Wikipedia Article</title>
             </extLink>
             <organizationRef>fema</organizationRef>
             <crisisRef>hurricane_katrina</crisisRef>
@@ -655,7 +655,7 @@ Clooney's humanitarian work includes his advocacy of finding a resolution for th
                 <title>Wikipedia Article</title>
             </extLink>
             <organizationRef>doctors_without_borders</organizationRef>
-            <crisisRef>war_in_darfur</crisisRef>
+            <crisisRef>darfur_conflict</crisisRef>
         </person>
 
         <person id="mohammed_morsi">
