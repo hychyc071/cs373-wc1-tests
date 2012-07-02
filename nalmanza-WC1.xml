@@ -1,0 +1,321 @@
+<worldCrises>
+    <crises>
+        <crisis id="abduction">
+            <name>Abduction Of Children By The Lord's Resistance Army</name>
+            <kind>Child abuse</kind>
+            <location>Uganda, South Sudan, Democratic Republic of the Congo, Central African Republic</location>
+			<date>1987 - 2012</date>
+            <humanImpact kind="Killed" note="since December 2009">1105</humanImpact>
+            <humanImpact kind="Missing" note="since December 2009">2519</humanImpact>
+            <humanImpact kind="Displaced" note="since 1987">2000000</humanImpact>
+            <economicImpact note="unknown">0.0</economicImpact>
+            <resourceNeeded>money, health care, military</resourceNeeded>
+            <wayToHelp link="https://www.stayclassy.org/checkout/donation?eid=14711">Donate</wayToHelp>
+            <image>
+                <link>http://tinyurl.com/7zc5ows</link>
+            </image>
+			<video>
+				<link>http://youtu.be/-ip08pjKngI</link>
+				<title>The Lord's Resistance Army Hunts Children in Sudan</title>
+			</video>
+			<social kind="twitter">
+				<link>https://twitter.com/#!/Pulitzercenter/lords-resistance-army</link>
+			</social>
+            <extLink>
+                <link>http://www.lracrisistracker.com/</link>
+				<title>Lord’s Resistance Army Crisis Tracker</title>
+            </extLink>
+            <organizationRef>invisible</organizationRef>
+            <personRef>Joseph_Kony</personRef>
+        </crisis>
+
+		<crisis id="drug">
+            <name>Mexican Drug War</name>
+            <kind>Social War</kind>
+            <location>Mexico, US</location>
+			<date>1990s</date>
+            <humanImpact kind="Killed" note="during Calderon presidency">55000</humanImpact>
+            <economicImpact>50000000000</economicImpact>
+            <resourceNeeded>military</resourceNeeded>
+            <wayToHelp>Mexicans voting, American cooperation</wayToHelp>
+            <image>
+                <link>http://tinyurl.com/82f6mw9</link>
+            </image>
+			<video>
+				<link>http://youtu.be/F01eO2GTbQg</link>
+			</video>
+			<social kind="twitter">
+                <link>https://twitter.com/#!/DrugWarAnalyst</link>
+                <title>Sylvia Longmire twitter</title>
+            </social>
+            <extLink>
+                <link>http://www.cnn.com/2012/02/16/world/americas/mexico-drug-war-strategy/index.html</link>
+				<title>CNN: Is Mexico's drug war strategy working?</title>
+            </extLink>
+            <organizationRef>pan</organizationRef>
+            <personRef>Felipe_Calderon</personRef>
+        </crisis>
+
+		<crisis id="health">
+            <name>United States Health Care Reform</name>
+            <kind>Social Reform</kind>
+            <location>United States</location>
+			<date>since 1912</date>
+            <humanImpact kind="Killed" note="unknown - 2% of people under 64 have inadequate or no insurance coverage">0</humanImpact>
+            <economicImpact note="spent in 2009 on health care">2470000000000</economicImpact>
+            <resourceNeeded>money, support</resourceNeeded>
+            <wayToHelp stance="pro" link="http://www.healthcare-now.org/whats-single-payer/endorse/petition">Sign petition</wayToHelp>
+			<wayToHelp stance="against" link="http://www.petitiononline.com/reprev26/petition.html">Sign petition</wayToHelp>
+            <image>
+                <link>http://tinyurl.com/7g9qx8s</link>
+            </image>
+			<video>
+				<link>http://youtu.be/ckiFGJ7JcZM</link>
+			</video>
+			<social kind="twitter">
+                <link>https://twitter.com/#!/HealthCareGov</link>
+                <title>HealthCare.gov</title>
+            </social>
+            <extLink>
+				<link>http://www.foxnews.com/us/2012/06/27/us-health-care-reform-efforts-through-history/</link>
+				<title>The history of the US health care reform effort</title>
+			</extLink>
+            <organizationRef>republican</organizationRef>
+            <personRef>John_Roberts</personRef>
+        </crisis>
+
+		<crisis id="censorship">
+            <name>Internet Censorship</name>
+            <kind>Social Suppression</kind>
+            <location>China, US</location>
+			<date>1998 - 2012</date>
+            <humanImpact kind="Affected">22000000</humanImpact>
+            <economicImpact note="invested - at least">40000000000</economicImpact>
+            <resourceNeeded>unknown</resourceNeeded>
+            <wayToHelp link="http://act.demandprogress.org/letter/pipa_sopa">Contact Congress</wayToHelp>
+			<wayToHelp link="http://www.broadbandforamerica.com/handsofftheinternet?gclid=CK7H1Inx7rACFVJZTAod-GjILg">Sign the petition</wayToHelp>
+            <image>
+				<link>http://rummuser.com/wp-content/uploads/internet_censorship.jpg</link>
+            </image>
+			<video>
+				<link>http://youtu.be/n7g7qcrXa10</link>
+			</video>
+			<social kind="twitter">
+				<link>https://twitter.com/#!/dontcensornet</link>
+				<title>Don't Censor the NET</title>
+			</social>
+			<extLink>
+				<link>http://computer.howstuffworks.com/internet-censorship.htm</link>
+			</extLink>
+            <organizationRef>riaa</organizationRef>
+            <personRef>Lamar_Smith</personRef>
+        </crisis>
+    </crises>
+
+    <organizations>
+        <organization id="invisible">
+            <name>Invisible Children</name>
+            <kind>Non-profit organization</kind>
+            <location>United States, Uganda</location>
+			<history>Invisible Children, Inc. is a non-profit organization founded in 2004 to bring awareness to the activities of the Lord's Resistance Army (LRA) in Central Africa, and its leader, Joseph Kony. Specifically, the group seeks to put an end to the practices of the LRA which include abductions and abuse of children, and forcing them to serve as soldiers. To this end, Invisible Children urges the United States government to take military action in the central region of Africa. Invisible Children also operates as a charitable organization, soliciting donations and selling merchandise to raise money for their cause. The organization promotes its cause by dispensing films on the internet and presenting in high schools and colleges around the United States.</history>
+			<address>1620 5th Ave, suite 400 San Diego, California 92101</address>
+            <image>
+				<link>http://vibewire.org/wp-content/uploads/2012/03/kony2012.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/Y4MnpzG5Sqc</link>
+            </video>
+			<social kind="facebook">
+                <link>www.facebook.com/invisiblechildren</link>
+                <title>Invisible Children Facebook</title>
+            </social>
+            <social kind="twitter">
+                <link>www.twitter.com/invisible</link>
+                <title>Invisible Children Twitter</title>
+            </social>
+            <extLink>
+                <link>www.invisiblechildren.com</link>
+                <title>Official website</title>
+            </extLink>
+            <crisisRef>abduction</crisisRef>
+            <personRef>Joseph_Kony</personRef>
+        </organization>
+
+		<organization id="pan">
+            <name>National Action Party</name>
+            <kind>Political Party</kind>
+            <location>Mexico</location>
+			<history>Founded in 1939 by Manuel Gómez Morán, the National Action Party (Partido de Acción Nacional--PAN) was the first genuine opposition party to develop in Mexico. The PAN emerged as a conservative reaction against the nationalizations and land confiscations undertaken by the Cárdenas government during the 1930s. The PAN resembled a standard Christian Democratic party, and its early support derived primarily from the Roman Catholic Church, the business sector, and other groups alienated by the left-wing populist reforms of the Cárdenas government. Although the PAN is much more conservative than the PRI on social issues, since the mid-1980s the PAN's economic program has been almost indistinguishable from that of the PRI governments it has attempted to supplant.</history>
+				<phone>5552004000</phone>
+            <image>
+				<link>http://upload.wikimedia.org/wikipedia/commons/thumb/1/14/PAN_(Mexico).svg/200px-PAN_(Mexico).svg.png</link>
+            </image>
+            <video kind="youtube">
+                <link>http://www.youtube.com/watch?v=QbarZ6UIKvM</link>
+            </video>
+			<social kind="facebook">
+                <link>https://www.facebook.com</link>
+                <title>PAN Facebook</title>
+            </social>
+            <social kind="twitter">
+                <link>www.twitter.com/accionnacional</link>
+                <title>PAN Twitter</title>
+            </social>
+            <extLink>
+                <link>www.pan.org.mx/</link>
+                <title>Official website</title>
+            </extLink>
+            <crisisRef>drug</crisisRef>
+            <personRef>Felipe_Calderon</personRef>
+        </organization>
+
+		<organization id="republican">
+            <name>Republican Party</name>
+            <kind>Political Party</kind>
+            <location>United States</location>
+			<history>The Republican Party is one of the two major contemporary political parties in the United States, along with the Democratic Party. Founded by anti-slavery expansion activists in 1854, it is often called the GOP (Grand Old Party), although the rival Democratic Party is older. Eighteen US presidents have been Republicans.
+				The party's platform generally reflects American conservatism in the U.S. political spectrum. American conservatism of the Republican Party is not wholly based upon rejection of the political ideology of liberalism, as many principles of American conservatism are based upon classical liberalism. Rather the Republican Party's conservatism is largely based upon its support of classical liberal principles against the modern liberalism of the Democratic Party that is considered American liberalism in contemporary American political discourse.</history>
+			<email>info@gop.com</email>
+            <image>
+				<link>http://www.foxtranslate.com/wp/wp-content/uploads/2011/12/gop_climate.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/0Y5_q-rWMkg</link>
+            </video>
+			<social kind="facebook">
+                <link>www.facebook.com/gop</link>
+                <title>GOP Facebook</title>
+            </social>
+            <social kind="twitter">
+                <link>www.twitter.com/gop</link>
+                <title>GOP Twitter</title>
+            </social>
+            <extLink>
+                <link>www.gop.com</link>
+                <title>Official website</title>
+            </extLink>
+            <crisisRef>health</crisisRef>
+            <personRef>John_Roberts</personRef>
+        </organization>
+
+		<organization id="riaa">
+            <name>RIAA</name>
+            <kind>Trade Organization</kind>
+            <location>United States</location>
+			<history>The Recording Industry Association of America (RIAA) is a trade organization that represents the recording industry distributors in the United States. Its members consist of record labels and distributors, which the RIAA say "create, manufacture and/or distribute approximately 85% of all legally sold recorded music in the United States." RIAA has its headquarters in Washington, D.C.
+				The RIAA was formed in 1952 primarily to administer the RIAA equalization curve, a technical standard of frequency response applied to vinyl records during recording. The RIAA 	participates in the collective rights management of sound recording. The association is also responsible for certifying Gold and Platinum albums and singles in the USA.</history>
+			<phone>2027750101</phone>
+            <image>
+				<link>http://cdn-www.cracked.com/articleimages/ob/riaa.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/nmHBtgpEeTM</link>
+            </video>
+			<social kind="facebook">
+                <link>www.facebook.com/riaa</link>
+                <title>RIAA Facebook</title>
+            </social>
+            <social kind="twitter">
+                <link>www.twitter.com/riaa</link>
+                <title>RIAA Twitter</title>
+            </social>
+            <extLink>
+                <link>www.RIAA.com</link>
+                <title>Official website</title>
+            </extLink>
+            <crisisRef>censorship</crisisRef>
+            <personRef>Lamar_Smith</personRef>
+        </organization>
+		
+    </organizations>
+
+    <people>
+	
+			<person id="Joseph_Kony">
+            <name>Joseph Kony</name>
+            <kind>Guerilla leader</kind>
+			<location>Uganda</location>
+            <image>
+                <link>http://janetnewenham.files.wordpress.com/2012/03/joseph-kony.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/M5oBxBAY3fg</link>
+            </video>
+            <social kind="facebook">
+                <link>http://www.facebook.com/pages/Joseph-Kony/24570038208</link>
+            </social>
+            <extLink>
+                <link>http://www.britannica.com/EBchecked/topic/1017670/Joseph-Kony</link>
+            </extLink>
+            <organizationRef>invisible</organizationRef>
+            <crisisRef>abduction</crisisRef>
+        </person>
+	
+        <person id="Felipe_Calderon">
+            <name>Felipe Calderon Hinojosa</name>
+            <kind>President</kind>
+			<location>Mexico</location>
+            <image>
+                <link>http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Felipe_Calderon_H.jpg/225px-Felipe_Calderon_H.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/cyjQw1gGBxY</link>
+            </video>
+
+			<social kind="twitter">
+                <link>https://twitter.com/#!/FelipeCalderon</link>
+            </social>
+            
+<extLink>
+                <link>http://en.presidencia.gob.mx/presidency/president/</link>
+            </extLink>
+            <organizationRef>pan</organizationRef>
+            <crisisRef>drug</crisisRef>
+        </person>
+
+		<person id="John_Roberts">
+            <name>John Roberts</name>
+            <kind>Chief justice of the United States</kind>
+			<location>United States</location>
+            <image>
+                <link>http://upload.wikimedia.org/wikipedia/commons/4/43/Official_roberts_CJ.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/PNF_pwkP6gg</link>
+            </video>
+
+			<social kind="facebook">
+                <link>https://www.facebook.com/pages/Chief-Justice-John-Roberts/120073461399290</link>
+            </social>
+            
+<extLink>
+                <link>http://www.supremecourt.gov/about/biographies.aspx</link>
+            </extLink>
+            <organizationRef>republican</organizationRef>
+            <crisisRef>health</crisisRef>
+        </person>
+
+		<person id="Lamar_Smith">
+            <name>Lamar Smith</name>
+            <kind>U.S. Representative</kind>
+			<location>Texas</location>
+            <image>
+                <link>http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamar_Smith%2C_Official_Portrait%2C_c112th_Congress.jpg/490px-Lamar_Smith%2C_Official_Portrait%2C_c112th_Congress.jpg</link>
+            </image>
+            <video kind="youtube">
+                <link>http://youtu.be/BbSkwE9-8kA</link>
+            </video>
+
+			<social kind="twitter">
+                <link>https://twitter.com/#!/LamarSmithTX21</link>
+            </social>
+            
+<extLink>
+                <link>http://lamarsmith.house.gov/</link>
+            </extLink>
+            <organizationRef>riaa</organizationRef>
+            <crisisRef>censorship</crisisRef>
+        </person>
+
+    </people>
+</worldCrises>
