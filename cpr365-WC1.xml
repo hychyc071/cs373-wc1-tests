@@ -1,6 +1,6 @@
 <worldCrises>
     <crises> 
-        <crisis id="aids_hiv">
+        <crisis id="hiv_aids">
             <name>AIDS/HIV</name>
             <kind>Epidemic</kind>
             <description>Human immunodeficiency virus infection / Acquired immunodeficiency syndrome (HIV/AIDS) is a disease of the human immune system caused by the human immunodeficiency virus (HIV). The illness interferes with the immune system, making people with AIDS much more likely to get infections, including opportunistic infections and tumors that do not usually affect people with working immune systems. This susceptibility increases as the disease worsens.
@@ -60,7 +60,7 @@ Genetic research indicates that HIV originated in West-central Africa during the
 				<title>Twitter HIV/AIDS Africa</title>
             </social>
             <extLink>
-                <link>http://www.avert.org/aids-hiv-africcaptiona.htm</link>
+                <link>http://www.avert.org/</link>
                 <title>HIV/AIDS in Africa</title>
             </extLink>
             <organizationRef>doctors_without_borders</organizationRef>
@@ -132,7 +132,7 @@ Several agencies including the United States Coast Guard (USCG), National Hurric
                 <title>National Oceanic and Atmospheric Administration</title>
             </extLink>
             <organizationRef>fema</organizationRef>
-            <personRef>president_george_bush</personRef>
+            <personRef>george_w_bush</personRef>
         </crisis>
         
   
@@ -338,7 +338,7 @@ Phone: 212-679-6800</contactInfo>
                 <link>www.doctorswithoutborders.org </link>
                 <title>Doctors without Borders</title>
             </extLink>
-            <crisisRef>aids_hiv</crisisRef>
+            <crisisRef>hiv_aids</crisisRef>
             <crisisRef>darfur_conflict</crisisRef>
             <personRef>george_clooney</personRef>
 
@@ -469,7 +469,7 @@ Hyattsville, MD 20782-8055
                 <title>Official FEMA Website</title>
             </extLink>
             <crisisRef>hurricane_katrina</crisisRef>
-            <personRef>president_george_bush</personRef>
+            <personRef>george_w_bush</personRef>
         </organization>
   
   
@@ -542,7 +542,7 @@ The MB is financed by contributions from its members, who are required to alloca
     
     
     <people>
-        <person id="president_george_bush">
+        <person id="george_w_bush">
             <name>George W. Bush</name>
             <kind>Former U.S. President</kind>
             <description>George Walker Bush (born July 6, 1946) is an American politician and businessman who was the 43rd President of the United States from 2001 to 2009 and the 46th Governor of Texas from 1995 to 2000. The eldest son of Barbara Bush and George H. W. Bush, he was born in New Haven, Connecticut. After graduating from Yale University in 1968 and Harvard Business School in 1975, Bush worked in oil businesses. He married Laura Welch in 1977 and ran unsuccessfully for the House of Representatives shortly thereafter. He later co-owned the Texas Rangers baseball team before defeating Ann Richards in the 1994 Texas gubernatorial election. In a close and controversial election, Bush was elected president in 2000, becoming the fourth president to be elected despite receiving less popular votes nationwide than his opponent. Bush is the second president to have been the son of a former president. He is also the brother of Jeb Bush, former Governor of Florida.
@@ -574,8 +574,8 @@ After leaving office, Bush returned to Texas and purchased a home in a suburban 
 				<caption>George Bush at Podium</caption>
             </image>
             <video>
-                <link>http://video.google.com/googleplayer.swf?docid=612870635678570869&amp;hl=en&amp;fs=true</link>
-				<caption>Full President George W. Bush Farewell Speech - Part 1</caption>
+                <link>http://www.youtube.com/embed/rXzgMdj5urs</link>
+				<caption>President George W. Bush Inaugural Address</caption>
             </video>
             <video>
                 <link>http://www.youtube.com/embed/k8az4CfEDpw</link>
@@ -591,7 +591,7 @@ After leaving office, Bush returned to Texas and purchased a home in a suburban 
             </video>
             <social kind="facebook">
                 <link>https://www.facebook.com/georgewbush </link>
-				<title>Facebook regarding George W. Bush</title>
+				<title>Facebook</title>
             </social>
             <extLink>
                 <link>http://en.wikipedia.org/wiki/George_W._Bush </link>
@@ -631,8 +631,8 @@ Clooney's humanitarian work includes his advocacy of finding a resolution for th
 				<caption>George Clooney in Darfur</caption>
 	    </image>
             <video>
-                <link>http://video.google.com/googleplayer.swf?docid=-4995658956908259929&amp;hl=en&amp;fs=true</link>
-                <caption>George Clooney and "A Journey to Darfur"</caption>
+                <link>http://www.youtube.com/embed/Hty9p4AHPZA</link>
+                <caption>10 Questions for George Clooney</caption>
             </video>
             <video>
                 <link>http://www.youtube.com/embed/eFVlHsaq5yg</link>
@@ -643,12 +643,12 @@ Clooney's humanitarian work includes his advocacy of finding a resolution for th
                 <caption>George Clooney Witnesses War Crimes in Sudan's Nuba Mountains </caption>
             </video>
             <video>
-                <link>http://www.youtube.com/embed/SfRyEQoJcE0" frameborder="0" allowfullscreen</link>
+                <link>http://www.youtube.com/embed/SfRyEQoJcE0</link>
                 <caption>George Clooney's Mission to bring Peace to Sudan : Prevent a Second Darfur ! </caption>
             </video>
             <social kind="facebook">
                 <link>http://www.facebook.com/pages/George-Clooney/106055702758671 </link>
-				<title>Facebook regarding George Clooney</title>
+				<title>Facebook</title>
             </social>
             <extLink>
                 <link>http://en.wikipedia.org/wiki/George_Clooney </link>
@@ -689,7 +689,7 @@ On 24 June 2012, the election commission announced that Morsi won Egypt's presid
             </image>
             <video>
                 <link>http://www.youtube.com/embed/9Zka-gk6vXo</link>
-                <caption>Egypt's President-elect, Mohammed Morsi - "Our Capital Shall Be Jerusalem, Allah Willing"</caption>
+                <caption>Egypt's President-elect, Mohammed Morsi - Our Capital Shall Be Jerusalem, Allah Willing</caption>
             </video>
             <video>
                 <link>http://www.youtube.com/embed/Fkzaj7K85nE</link>
@@ -717,7 +717,7 @@ On 24 June 2012, the election commission announced that Morsi won Egypt's presid
 
         <person id="bill_gates">
             <name>Bill Gates</name>
-            <kind>Philanthropist</kind>
+            <kind>Philanthropist/Entrepreneur</kind>
             <description>William Henry "Bill" Gates III (born October 28, 1955) is an American business magnate, computer programmer and philanthropist. Gates is the former chief executive and current chairman of Microsoft, the world’s largest personal-computer software company he co-founded with Paul Allen. He is consistently ranked among the world's wealthiest people and was the wealthiest overall from 1995 to 2009, excluding 2008, when he was ranked third; in 2011 he was the wealthiest American and the second wealthiest person. During his career at Microsoft, Gates held the positions of CEO and chief software architect, and remains the largest individual shareholder, with 6.4 percent of the common stock. He has also authored or co-authored several books.
 
 Gates is one of the best-known entrepreneurs of the personal computer revolution. Gates has been criticized for his business tactics, which have been considered anti-competitive, an opinion which has in some cases been upheld by the courts. In the later stages of his career, Gates has pursued a number of philanthropic endeavors, donating large amounts of money to various charitable organizations and scientific research programs through the Bill &amp; Melinda Gates Foundation, established in 2000.
@@ -739,14 +739,14 @@ Gates stepped down as chief executive officer of Microsoft in January 2000. He r
             <image>
                 <link>http://i.cnn.net/money/2006/03/30/news/newsmakers/gates_howiwork_fortune/bill_gates_400.jpg</link>
 				<caption>Bill Gates at Desk</caption>
-            </image>
+            </image> 
             <image>
                 <link>http://trendsupdates.com/wp-content/uploads/2009/01/bill-gates.jpg</link>
 				<caption>Bill Gates at Podium</caption>
             </image>
             <video>
-                <link>http://video.google.com/googleplayer.swf?docid=8628658968190905452&amp;hl=en&amp;fs=true</link>
-				<caption>Bill Clinton and Bill Gates speak on AIDS in Toronto</caption>
+                <link>http://www.youtube.com/embed/khiF5CU3z6M</link>
+				<caption>Bill Gates and Former US President Clinton on AIDS</caption>
             </video>
             <video>
                 <link>http://www.youtube.com/embed/VsyZCk9keXU\</link>
@@ -762,11 +762,11 @@ Gates stepped down as chief executive officer of Microsoft in January 2000. He r
             </video>
             <social kind="facebook">
                 <link>http://www.facebook.com/BillGates </link>
-				<title>Facebook regarding Bill Gates</title>
+				<title>Facebook</title>
             </social>
 			<social kind="twitter">
 				<link>http://twitter.com/#!/BillGates/ </link>
-				<title>Twitter regarding Bill Gates</title>
+				<title>Twitter</title>
 			</social>
             <extLink>
                 <link>http://en.wikipedia.org/wiki/Bill_Gates </link>
@@ -776,7 +776,7 @@ Gates stepped down as chief executive officer of Microsoft in January 2000. He r
                 <title>Gates Foundation Website</title>
             </extLink>
             <organizationRef>american_red_cross</organizationRef>
-            <crisisRef>aids_hiv</crisisRef>
+            <crisisRef>hiv_aids</crisisRef>
         </person>
     </people>
 </worldCrises> 
