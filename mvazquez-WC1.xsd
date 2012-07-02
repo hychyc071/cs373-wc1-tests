@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- declaration of simple elements -->
+
+  <xsd:element name="named" type="xsd:string"/>
+  <xsd:element name="type" type="xsd:string"/>
+  <xsd:element name="city" type="xsd:string"/>
+  <xsd:element name="country" type="xsd:string"/>
+  <xsd:element name="street" type="xsd:string"/>
+  <xsd:element name="description" type="xsd:string"/>
+  <xsd:element name="injured" type="xsd:integer" default="0"/>
+  <xsd:element name="dead" type="xsd:integer" default="0"/>
+  <xsd:element name="missing" type="xsd:integer" default="0"/>
+  <xsd:element name="economicImpact" type="xsd:integer" default="0"/>
+  <xsd:element name="title" type="xsd:string"/>
+  <xsd:element name="url" type="xsd:string"/>
+
+  <xsd:element name="date" >
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="([0-9]{4}\-[0-9]{2}\-[0-9]{2})|([0-9]{4})?"/>
+			</xsd:restriction>
+		</xsd:simpleType>	
+	</xsd:element>
+
+  <xsd:element name="phone"/>
+	<xsd:element name="email">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="(([a-zA-z0-9_\-\.])*@([a-zA-z0-9_\-\.])*[\.]([a-zA-z0-9_\-])*)?"/>
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+
+  <xsd:element name="help">
+    <xsd:simpleType>
+      <xsd:restriction base="xsd:string">
+        <xsd:enumeration value="Donations"/>
+        <xsd:enumeration value="Volunteers"/>
+        <xsd:enumeration value="Medical Supplies"/>
+        <xsd:enumeration value="Awareness"/>
+      </xsd:restriction>
+    </xsd:simpleType>
+  </xsd:element>
+
+  <xsd:element name="location" type="locationType"/>
+  <xsd:element name="media" type="mediaType"/>  
+  <xsd:element name="address" type="addressType"/>
+  <xsd:element name="orgLink" type="referenceType"/>
+  <xsd:element name="personLink" type="referenceType"/>
+  <xsd:element name="crisisLink" type="referenceType"/>
+
+<!-- declaration of group elements -->
+
+  <xsd:group name="locationGroup">
+    <xsd:sequence>
+      <xsd:element ref="city"/>
+      <xsd:element ref="country"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="humanImpactGroup">
+    <xsd:sequence>
+      <xsd:element ref="injured"/>
+      <xsd:element ref="dead"/>
+      <xsd:element ref="missing"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="linkGroup">
+    <xsd:sequence>
+      <xsd:element ref="title"/>
+      <xsd:element ref="url"/>
+      <xsd:element ref="description"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="addressGroup">
+    <xsd:sequence>
+      <xsd:element ref="street"/>
+      <xsd:element ref="city"/>
+      <xsd:element ref="country"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="contactGroup">
+    <xsd:sequence>
+      <xsd:element ref="phone"/>
+      <xsd:element ref="email"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="infoGroup">
+    <xsd:sequence>
+      <xsd:element ref="named"/>
+      <xsd:element ref="type" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element ref="date"/>
+      <xsd:element ref="location"/>
+      <xsd:element ref="description"/>
+    </xsd:sequence>
+  </xsd:group>
+
+<!-- declaration of complex types -->
+
+  <xsd:complexType name="locationType">
+    <xsd:group ref="locationGroup"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="humanImpactType">
+    <xsd:group ref="humanImpactGroup"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="linkType">
+    <xsd:group ref="linkGroup"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="addressType">
+    <xsd:group ref="addressGroup"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="contactType">
+    <xsd:sequence>
+      <xsd:element ref="address"/>
+      <xsd:group ref="contactGroup"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="referenceType">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="idref" type="xsd:IDREF" use="required"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="mediaType">
+    <xsd:sequence>
+      <xsd:element name="image" type="linkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="video" type="linkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="social" type="linkType" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="external" type="linkType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="crisisType">
+    <xsd:sequence>
+      <xsd:group ref="infoGroup"/>
+      <xsd:element ref="help" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="humanImpact" type="humanImpactType"/>
+      <xsd:element ref="economicImpact"/>
+      <xsd:element ref="media"/>
+      <xsd:element ref="orgLink" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element ref="personLink" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="organizationType">
+    <xsd:sequence>
+      <xsd:group ref="infoGroup"/>
+      <xsd:element name="contact" type="contactType"/>
+      <xsd:element ref="media"/>
+      <xsd:element ref="crisisLink" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element ref="personLink" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="personType">
+    <xsd:sequence>
+      <xsd:group ref="infoGroup"/>
+      <xsd:element ref="media"/>
+      <xsd:element ref="crisisLink" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element ref="orgLink" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+
+<!-- declaration of root element -->
+
+  <xsd:element name="worldCrises">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="crisis" type="crisisType"  maxOccurs="unbounded"/>
+        <xsd:element name="organization" type="organizationType"  maxOccurs="unbounded"/>
+        <xsd:element name="person" type="personType"  maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>
