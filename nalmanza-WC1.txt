@@ -1,0 +1,182 @@
+---------------
+Crises
+---------------
+
+id : "abudction"
+name : Abduction/abuse of children by the Lord's Resistance Army
+kind : Child Abuse
+location : Uganda, South Sudan, Democratic Republic of the Congo, Central African Republic
+date and time : 1987 - 2012
+human impact :
+	deaths: 1105 (since December 2009)
+	injured: unknown
+	missing: 2519 (since December 2009)
+	displaced: 2,000,000 (since 1987)
+economic impact :
+resources needed : money, health care, military
+ways to help : https://www.stayclassy.org/checkout/donation?eid=14711
+embedded images (e.g. Bing, Flickr, Google) : http://tinyurl.com/7zc5ows
+embedded videos (e.g. Bing, Google, Vimeo) :
+social networks (e.g. Facebook, Twitter) :
+external links : http://www.lracrisistracker.com/
+organizations : Invisible Children
+people : Josheph Kony
+
+
+id : "drug"
+name : Mexican Drug War
+kind : Social War
+location : Mexico, US
+date and time : 1990s
+human impact : 55,000 killed during Calderon presidency
+economic impact : 50 billion
+resources needed : military
+ways to help : Mexicans voting, American cooperation
+embedded images (e.g. Bing, Flickr, Google) : http://tinyurl.com/82f6mw9
+embedded videos (e.g. Bing, Google, Vimeo) :
+social networks (e.g. Facebook, Twitter) : https://twitter.com/#!/DrugWarAnalyst
+external links : http://www.cnn.com/2012/02/16/world/americas/mexico-drug-war-strategy/index.html
+organizations : National Action Party (PAN)
+people : Felipe Calderon
+
+
+id : "health"
+name : United States Health Care Reform
+kind : Social Reform
+location : United States
+date and time : since 1912
+human impact : 42% of people under 64 have inadequate or no insurance coverage
+economic impact : 2.47 trillion spent in 2009 on health care
+resources needed : money, support (pro or against)
+ways to help : 
+	pro: http://www.healthcare-now.org/whats-single-payer/endorse/petition
+	against: http://www.petitiononline.com/reprev26/petition.html
+embedded images (e.g. Bing, Flickr, Google) : http://tinyurl.com/7g9qx8s
+embedded videos (e.g. Bing, Google, Vimeo) :
+social networks (e.g. Facebook, Twitter) : https://twitter.com/#!/HealthCareGov
+external links : http://www.foxnews.com/us/2012/06/27/us-health-care-reform-efforts-through-history/
+organizations : Republican Party
+people : John Roberts
+
+id : "censorship"
+name : Internet Censorship
+kind : Social Suppression
+location : China, US
+date and time : 1998 - 2012
+human impact : 22 million users
+economic impact : greater than 40 billion dollars invested
+resources needed : unknown
+ways to help : http://act.demandprogress.org/letter/pipa_sopa
+embedded images (e.g. Bing, Flickr, Google) : http://rummuser.com/wp-content/uploads/internet_censorship.jpg
+embedded videos (e.g. Bing, Google, Vimeo) :
+social networks (e.g. Facebook, Twitter) :
+external links : http://www.broadbandforamerica.com/handsofftheinternet?gclid=CK7H1Inx7rACFVJZTAod-GjILg
+organizations : RIAA
+people : Lamar Smith
+
+---------------
+Organizations
+---------------
+
+id: 			invisible
+Name: 			Invisible Children
+Kind: 			Non-profit organization
+Location: 		United States, Uganda
+History: 		Invisible Children, Inc. is a non-profit organization founded in 2004 to bring awareness to the activities of the Lord's Resistance Army (LRA) in Central Africa, and its leader, 				Joseph Kony. Specifically, the group seeks to put an end to the practices of the LRA which include abductions and abuse of children, and forcing them to serve as soldiers. To this 				end, Invisible Children urges the United States government to take military action in the central region of Africa. Invisible Children also operates as a charitable organization, 				soliciting donations and selling merchandise to raise money for their cause. The organization promotes its cause by dispensing films on the internet and presenting in high schools 				and colleges around the United States.
+Contact Info: 
+Images:
+Videos:
+Social Networks: 	www.facebook.com/invisiblechildren, www.twitter.com/invisible
+External Links: 	www.invisiblechildren.com
+Crisis: 		Abduction and abuse of children by the Lord's Resistance Army
+People: 		Joseph Kony
+
+id: 			pan
+Name: 			National Action Party
+Kind: 			Political Party (Mexico)
+Location: 		Mexico
+History: 		Founded in 1939 by Manuel Gómez Morán, the National Action Party (Partido de Acción Nacional--PAN) was the first genuine opposition party to develop in Mexico. The PAN emerged as a 				conservative reaction against the nationalizations and land confiscations undertaken by the Cárdenas government during the 1930s. The PAN resembled a standard Christian Democratic 				party, and its early support derived primarily from the Roman Catholic Church, the business sector, and other groups alienated by the left-wing populist reforms of the Cárdenas 				government. Although the PAN is much more conservative than the PRI on social issues, since the mid-1980s the PAN's economic program has been almost indistinguishable from that of 				the PRI governments it has attempted to supplant.
+Contact Info: 		(555) 200-4000
+Images:
+Videos:
+Social Networks: 	www.twitter.com/accionnacional
+External Links: 	www.pan.org.mx/
+Crisis: 		Drug Wars
+People: 		Felipe Calderon
+
+id: 			republican
+Name: 			Republican Party
+Kind: 			Political Party (USA)
+Location: 		United States
+History: 		The Republican Party is one of the two major contemporary political parties in the United States, along with the Democratic Party. Founded by anti-slavery expansion activists in 				1854, it is often called the GOP (Grand Old Party), although the rival Democratic Party is older. Eighteen US presidents have been Republicans.
+			The party's platform generally reflects American conservatism in the U.S. political spectrum. American conservatism of the Republican Party is not wholly based upon rejection of the 				political ideology of liberalism, as many principles of American conservatism are based upon classical liberalism. Rather the Republican Party's conservatism is largely based upon 				its support of classical liberal principles against the modern liberalism of the Democratic Party that is considered American liberalism in contemporary American political discourse.
+Contact Info: 		info@gop.com
+Images:
+Videos:
+Social Networks: 	www.facebook.com/gop, www.twitter.com/gop
+External Links: 	www.gop.com
+Crisis:			Health Care Reform
+People: 		John Roberts
+
+id: 			riaa
+Name: 			RIAA
+Kind: 			Trade Organization
+Location: 		United States
+History: 		The Recording Industry Association of America (RIAA) is a trade organization that represents the recording industry distributors in the United States. Its members consist of record 				labels and distributors, which the RIAA say "create, manufacture and/or distribute approximately 85% of all legally sold recorded music in the United States." RIAA has its 				headquarters in Washington, D.C.
+			The RIAA was formed in 1952 primarily to administer the RIAA equalization curve, a technical standard of frequency response applied to vinyl records during recording. The RIAA 			participates in the collective rights management of sound recording. The association is also responsible for certifying Gold and Platinum albums and singles in the USA.
+Contact Info: 		(202) 775-0101
+Images:
+Videos:
+Social Networks: 	www.twitter.com/riaa
+External Links: 	www.RIAA.com
+Crisis:			Internet Censorship
+People: 		Lamar Smith
+
+
+---------------
+People
+---------------
+
+id : 			Joseph_Kony
+name : 			Joseph Kony
+kind : 			guerrilla leader
+location : 		Uganda
+embedded images :	http://janetnewenham.files.wordpress.com/2012/03/joseph-kony.jpg
+embedded videos : 	http://youtu.be/M5oBxBAY3fg
+social networks : 	http://www.facebook.com/pages/Joseph-Kony/24570038208
+external links : 	http://www.britannica.com/EBchecked/topic/1017670/Joseph-Kony
+crises : 		Abduction/abuse of children by the Lord's Resistance Army
+organizations : 	Invisible children
+
+id : 			Felipe_Calderon
+name : 			Felipe Calderon Hinojosa
+kind : 			president
+location : 		Mexico
+embedded images : 	http://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Felipe_Calderon_H.jpg/225px-Felipe_Calderon_H.jpg
+embedded videos : 	http://youtu.be/cyjQw1gGBxY
+social networks :	 https://twitter.com/#!/FelipeCalderon
+external links : 	http://en.presidencia.gob.mx/presidency/president/
+crises : 		Drug wars
+organizations : 	National Action Party
+
+id : 			John_Roberts
+name : 			John Roberts
+kind : 			Chief justice of the United States
+location :		United States
+embedded images : 	http://upload.wikimedia.org/wikipedia/commons/4/43/Official_roberts_CJ.jpg
+embedded videos : 	http://youtu.be/PNF_pwkP6gg
+social networks : 
+external links : 	http://www.supremecourt.gov/about/biographies.aspx
+crises : Health 	care reform
+organizations : 	Republican Party
+
+id : 			Lamar_Smith
+name :			Lamar Smith
+kind : 			U.S. representative
+location : 		Texas
+embedded images : 	http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamar_Smith%2C_Official_Portrait%2C_c112th_Congress.jpg/490px-Lamar_Smith%2C_Official_Portrait%2C_c112th_Congress.jpg
+embedded videos : 	http://youtu.be/BbSkwE9-8kA
+social networks : 	https://twitter.com/#!/LamarSmithTX21
+external links : 	http://lamarsmith.house.gov/
+crises : 		Internet Censorship
+organizations : 	RIAA

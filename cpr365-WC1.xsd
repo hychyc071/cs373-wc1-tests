@@ -88,23 +88,9 @@
 		
 		<xs:group ref="externals" />
 		
-		<xs:element name="organizationRef"  minOccurs="1" maxOccurs="unbounded">	
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="organizationRef" type="xs:IDREF"  minOccurs="1" maxOccurs="unbounded" />	
 		
-		<xs:element name="personRef" minOccurs="1" maxOccurs="unbounded">
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="personRef" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded" />
 		
 	</xs:sequence>
 	
@@ -135,23 +121,9 @@
 
 		<xs:group ref="externals" />
 		
-		<xs:element name="crisisRef" minOccurs="1" maxOccurs="unbounded">
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="crisisRef" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded" />
 		
-		<xs:element name="personRef" minOccurs="1" maxOccurs="unbounded">
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="personRef" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded" />
 
 	</xs:sequence>
 	<xs:attribute name="id" type="xs:ID" use="required" />
@@ -171,23 +143,9 @@
 
 		<xs:group ref="externals" />
 		
-		<xs:element name="organizationRef" minOccurs="1" maxOccurs="unbounded">
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="organizationRef" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded" />
 		
-		<xs:element name="crisisRef" minOccurs="1" maxOccurs="unbounded">
-			<xs:complexType>
-			 <xs:simpleContent>
-			  <xs:extension base="xs:IDREF">
-			   <xs:attribute name="note" type="xs:normalizedString" use="optional" />
-			  </xs:extension></xs:simpleContent>
-			</xs:complexType>
-		</xs:element>
+		<xs:element name="crisisRef" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded" />
 		
 	</xs:sequence>
 	<xs:attribute name="id" type="xs:ID" use="required" />
@@ -195,10 +153,11 @@
 
 <xs:group name="externals">
 	<xs:sequence>
-		<xs:element name="image"   type="imageType" minOccurs="1" maxOccurs="unbounded"   />
-		<xs:element name="video"   type="videoType" minOccurs="1" maxOccurs="unbounded"   />
-		<xs:element name="social"  type="socialType" minOccurs="1" maxOccurs="unbounded"  />
-		<xs:element name="extLink" type="extLinkType" minOccurs="1" maxOccurs="unbounded" />
+		<xs:element name="primaryImage" type="imageType"                                       />
+		<xs:element name="image"        type="imageType" minOccurs="1" maxOccurs="unbounded"   />
+		<xs:element name="video"        type="videoType" minOccurs="1" maxOccurs="unbounded"   />
+		<xs:element name="social"       type="socialType" minOccurs="1" maxOccurs="unbounded"  />
+		<xs:element name="extLink"      type="extLinkType" minOccurs="1" maxOccurs="unbounded" />
 	</xs:sequence>
 </xs:group>
 
@@ -215,8 +174,7 @@
 	
 	<xs:sequence>
 		<xs:element name="link" type="xs:token" />
-		<xs:element name="title" type="xs:normalizedString" />
-		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
+		<xs:element name="caption" type="xs:normalizedString" />
 	</xs:sequence>
 	
 	<xs:attribute name="kind" type="videoKinds" />
@@ -228,6 +186,7 @@
 		<xs:enumeration value="vimeo"      />
 		<xs:enumeration value="metacafe"   />
 		<xs:enumeration value="dailymotion"/> 
+		<xs:enumeration value="other"      />
 	</xs:restriction>
 </xs:simpleType>
 
@@ -236,7 +195,6 @@
 	<xs:sequence>
 		<xs:element name="link" type="xs:token" />
 		<xs:element name="title" type="xs:normalizedString" />
-		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
 	</xs:sequence>
 	
 	<xs:attribute name="kind" type="socialKinds" />
@@ -250,14 +208,14 @@
         <xs:enumeration value="linkedin"  />
 	<xs:enumeration value="googleplus"/>
 	<xs:enumeration value="myspace"   />
+	<xs:enumeration value="blog"      />
     </xs:restriction>
 </xs:simpleType>
 
 <xs:complexType name="extLinkType">
 	<xs:sequence>
 		<xs:element name="link" type="xs:token" />
-		<xs:element name="title" type="xs:normalizedString" />
-		<xs:element name="description" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
+		<xs:element name="title" type="xs:normalizedString" minOccurs="0" maxOccurs="1" />
 	</xs:sequence>
 </xs:complexType>
 
